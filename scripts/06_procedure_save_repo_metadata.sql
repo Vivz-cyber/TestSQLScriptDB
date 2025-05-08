@@ -12,4 +12,3 @@ BEGIN
     ) VALUES (
         in_username, in_email, in_repo_name, in_local_path, in_github_url, in_build_type
     );
-END$$
