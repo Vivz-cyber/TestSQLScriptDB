@@ -1,3 +1,4 @@
+DROP PROCEDURE IF EXISTS sp_save_repo_metadata;
 CREATE PROCEDURE sp_save_repo_metadata (
     IN p_repo_name VARCHAR(255),
     IN p_local_path TEXT,
