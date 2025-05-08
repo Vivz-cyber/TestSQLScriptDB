@@ -1,5 +1,3 @@
-DELIMITER $$
-
 CREATE PROCEDURE sp_insert_user (
     IN in_firstname VARCHAR(50),
     IN in_lastname VARCHAR(50),
@@ -12,4 +10,3 @@ BEGIN
     VALUES (in_firstname, in_lastname, in_username, in_phone, in_email);
 END$$
 
-DELIMITER ;
