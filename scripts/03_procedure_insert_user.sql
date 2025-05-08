@@ -8,5 +8,4 @@ CREATE PROCEDURE sp_insert_user (
 BEGIN
     INSERT INTO user_table (firstname, lastname, username, phone, email)
     VALUES (in_firstname, in_lastname, in_username, in_phone, in_email);
-END$$
 
