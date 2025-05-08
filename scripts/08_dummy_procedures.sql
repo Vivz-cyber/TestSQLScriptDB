@@ -10,4 +10,3 @@ CREATE PROCEDURE sp_place_order (
 BEGIN
     INSERT INTO orders (product_id, quantity, order_date)
     VALUES (in_product_id, in_quantity, CURDATE());
-END$$
