@@ -1,5 +1,3 @@
-DELIMITER $$
-
 CREATE PROCEDURE sp_save_repo_metadata (
     IN in_username VARCHAR(50),
     IN in_email VARCHAR(100),
@@ -15,5 +13,3 @@ BEGIN
         in_username, in_email, in_repo_name, in_local_path, in_github_url, in_build_type
     );
 END$$
-
-DELIMITER ;
