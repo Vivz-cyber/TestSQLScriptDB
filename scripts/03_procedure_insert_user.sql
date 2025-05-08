@@ -1,3 +1,4 @@
+DROP PROCEDURE IF EXISTS sp_insert_user;
 CREATE PROCEDURE sp_insert_user (
     IN in_firstname VARCHAR(50),
     IN in_lastname VARCHAR(50),
